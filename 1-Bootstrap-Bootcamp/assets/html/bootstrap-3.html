@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap || Learn</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Dropdown Menu -->
+    <nav class="navbar bg-primary navbar-light navbar-expand-md fixed-top">
+      <div class="container">
+        <a href="./bootstrap-2.html" class="our-brand d-none d-sm-inline-block">
+          <img
+            src="./../image/favicon.png"
+            alt="Brand Logo"
+            style="width: 55px; border-radius: 10px"
+          />
+        </a>
+
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-target="#myMenuToggler"
+          data-toggle="collapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myMenuToggler">
+          <ul class="navbar-nav nav-pills">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                >Course</a
+              >
+
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Office Computer</a>
+                <a href="#" class="dropdown-item">Kid's Computer</a>
+                <a href="#" class="dropdown-item">Web Development</a>
+                <a href="#" class="dropdown-item">Freelancing Care</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Cart</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br /><br />
+    <div class="container-fluid mt-5">
+      <div class="container">
+        <!-- ===== MODAL DIALOG IN BOOTSTRAP ===== -->
+        <button
+          type="button"
+          class="btn btn-primary d-block my-1"
+          data-toggle="modal"
+          data-target="#myModal"
+        >
+          Open A Modal
+        </button>
+
+        <!-- div.modal>div.modal-dialog>div.modal-content> -->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Hello World!</h2>
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+              <div class="modal-body">
+                <h3>Lorem ipsum dolor sit amat ...</h3>
+                <p style="text-align: justify">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nihil ipsa corrupti non vero sit nesciunt consectetur
+                  molestiae nulla magnam porro officia expedita repellendus iste
+                  ad hic cupiditate nam dolor fuga quas, sint, animi aliquid
+                  perferendis vel. Repellendus voluptatibus adipisci sint minus
+                  deserunt nihil libero harum error consequatur dolorum quaerat
+                  vero, blanditiis doloribus, magni, saepe accusantium cumque
+                  odit. Eius mollitia incidunt consequuntur architecto in!
+                  Voluptatum esse officiis eius iste quidem consequuntur
+                  praesentium voluptas id ex! Fugit beatae esse quisquam quo
+                  commodi dolorum exercitationem nulla sapiente porro, unde quam
+                  et, error sed aut, iure atque nam distinctio dolore animi hic
+                  excepturi provident.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container">
+        <!-- ===== Carousel Slider ===== -->
+        <div
+          class="carousel slide d-none d-sm-block"
+          data-ride="carousel"
+          id="demo"
+        >
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./../image/slider-1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="carousel-item">
+              <img src="./../image/slider-2.jpg" alt="" class="img-fluid" />
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="text-danger">
+                  This is our carousel caption heading
+                </h2>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+                <a href="#" class="btn btn-warning">Click Here</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./../image/slider-3.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+
+          <a href="#demo" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#demo" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ====== Carousel Slider Script ====== -->
+    <script>
+      $(".carousel").carousel({
+        interval: 3000, // Slider Image Change Time
+        pause: false, // Slider Hover Effect
+      });
+    </script>
+  </body>
+</html>

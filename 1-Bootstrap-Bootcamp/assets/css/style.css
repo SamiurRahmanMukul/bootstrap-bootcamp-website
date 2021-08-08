@@ -1,0 +1,8 @@
+.my_Class {
+  background-color: bisque;
+  border: 1px solid black;
+}
+.my_Class p {
+  text-transform: uppercase;
+  text-align: justify;
+}

@@ -1,0 +1,15 @@
+body {
+  font-family: Consolas;
+  background-color: #eeeeee;
+}
+
+.text-light {
+  color: whitesmoke !important;
+}
+
+.our_class {
+  margin-top: 1rem;
+  background-color: aqua;
+  border: 1px solid blue;
+  text-align: justify;
+}
