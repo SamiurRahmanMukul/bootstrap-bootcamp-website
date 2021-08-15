@@ -13,11 +13,11 @@ Hello 👋, At this public ⛣ repository i will be develop `A website using Boo
 |  #  | Resource / Projects                                                                                                     | Live Preview                                                                                       |
 | :-: | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | 01  | [1-Bootstrap-Bootcamp](https://github.com/SamiurRahmanMukul/bootstrap-bootcamp-website/tree/main/1-Bootstrap-Bootcamp/) | [Click Here](https://samiurrahmanmukul.github.io/bootstrap-bootcamp-website/1-Bootstrap-Bootcamp/) |
-| 02  | [2-Bootcamp-Website](https://github.com/SamiurRahmanMukul/bootstrap-bootcamp-website/tree/main/2-Bootcamp-Website/)     | [Click Here](https://samiurrahmanmukul.github.io/bootstrap-bootcamp-website/2-Bootcamp-Website//)  |
+| 02  | [2-Bootcamp-Website](https://github.com/SamiurRahmanMukul/bootstrap-bootcamp-website/tree/main/2-Bootcamp-Website/)     | [Click Here](https://samiurrahmanmukul.github.io/bootstrap-bootcamp-website/2-Bootcamp-Website/)   |
 
 <!-- my social media links -->
 
-[facebook-url]: https://www.faceook.com/SamiurRahmanMukul
+[facebook-url]: https://www.facebook.com/SamiurRahmanMukul
 [instagram-url]: https://www.instagram.com/samiur_rahman_mukul
 [twitter-url]: https://www.twitter.com/SamiurRahMukul
 [linkedin-url]: https://www.linkedin.com/in/SamiurRahmanMukul
